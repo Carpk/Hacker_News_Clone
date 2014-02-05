@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Welcome to Hacker News!</h1>
+  <p>your source for fake new material!</p>
+</div>
+
+<div class="container">
+  <ul>
+    <% @all_comments.each do |comment| %>
+
+      <li>
+        <a href="/user/<%=comment.author%>"><p><%=comment.author%></a> <%=comment.created_at%></p>
+        <p><%=comment.body%></p>
+      </li>
+
+    <% end %>
+  </ul>
+</div>

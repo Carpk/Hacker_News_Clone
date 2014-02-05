@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Welcome to Hacker News!</h1>
+  <p>your source for fake new material!</p>
+</div>
+
+<div class="container">
+  <ul>
+    <% @all_posts.each do |post| %>
+      <li>
+        <a href="<%=post.url%>"><%=post.title%></a><br>
+        <%=post.points%> points <a href="/item/<%=post.id%>"><%=post.comments_count%> comments</a>
+      </li>
+    <% end %>
+  </ul>
+</div>
