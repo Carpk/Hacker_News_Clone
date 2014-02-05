@@ -5,11 +5,13 @@
 
 <div class="container">
   <ul>
-    <% @all_posts.each do |post| %>
-      <li>
-        <a href="<%=post.url%>"><%=post.title%></a><br>
-        <%=post.points%> points <a href="/item/<%=post.id%>"><%=post.comments_count%> comments</a>
-      </li>
+    <% if @all_posts == true %>
+      <% @all_posts.each do |post| %>
+        <li>
+          <a href="<%=post.url%>"><%=post.title%></a><br>
+          <%=post.points%> points <a href="/item/<%=post.id%>"><%=post.comments_count%> comments</a>
+        </li>
+      <% end %>
     <% end %>
   </ul>
 </div>

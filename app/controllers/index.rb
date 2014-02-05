@@ -12,3 +12,8 @@ get '/user/:name' do
   @users_page = User.find_by_name(params[:name])
   erb :users
 end
+
+get '/submitted/:name' do
+  @submissions = Post.where(user_id: User.find_by_name(params[:name]).id)
+  erb :submitted
+end
