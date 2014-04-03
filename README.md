@@ -15,4 +15,21 @@ Clone of hacker news poplated with fake data based on Sinatra.
 
 ## Screenshots
 
-![alt tag](https://raw.githubusercontent.com/Carpk/flickr_jr/master/public/image/Screenshot%20from%202014-04-02%2019:49:38.png)
+![alt tag](https://raw.githubusercontent.com/Carpk/Hacker_News_Clone/master/public/images/Screenshot%20from%202014-04-02%2020:05:59.png)
+
+Landing page, shows list of links and thier comments.
+
+
+![alt tag](https://raw.githubusercontent.com/Carpk/Hacker_News_Clone/master/public/images/Screenshot%20from%202014-04-02%2020:06:30.png)
+
+Comments page, shows users and thier comment reguarding the topic.
+
+
+![alt tag](https://raw.githubusercontent.com/Carpk/Hacker_News_Clone/master/public/images/Screenshot%20from%202014-04-02%2020:07:15.png)
+
+User profile, to view more infomation on a user
+
+
+![alt tag](https://raw.githubusercontent.com/Carpk/Hacker_News_Clone/master/public/images/Screenshot%20from%202014-04-02%2020:07:23.png)
+
+Submissions, for a particular user.
