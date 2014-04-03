@@ -1,15 +1,18 @@
 
-Hacker News Clone
-=================
+### Hacker News Clone
 
-Description: clone of hacker news poplated with fake data.
+Clone of hacker news poplated with fake data based on Sinatra.
 
+## Getting Started
 
-Getting Started
-===============
+`rake db:create`
 
-rake db:create
+`rake db:migrate`
 
-rake db:migrate
+`rake db:seed`
 
-rake db:seed
+`shotgun`
+
+## Screenshots
+
+![alt tag](https://raw.githubusercontent.com/Carpk/flickr_jr/master/public/image/Screenshot%20from%202014-04-02%2019:49:38.png)
